@@ -1,4 +1,4 @@
-module github.com/flutter-webrtc/flutter-webrtc-server
+module github.com/euglena1215/flutter-webrtc-server
 
 go 1.12
 
@@ -9,4 +9,7 @@ require (
 	github.com/rs/zerolog v1.23.0
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	gopkg.in/ini.v1 v1.62.0
+	github.com/flutter-webrtc/flutter-webrtc-server v1.1.0
 )
+
+replace github.com/flutter-webrtc/flutter-webrtc-server => ./
